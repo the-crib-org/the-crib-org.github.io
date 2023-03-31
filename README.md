@@ -14,8 +14,10 @@ This map was developed to visually depict the devastating, disproportionate prev
 - 2023-03-31: Updated homicide data to Dec 2022
 - 2022-03-02: Updated homicide data to Dec 2021, added small legends besides the layer toggle buttons
 - 2021-04-19: Updated homicide data to Dec 2020
-- 2021-03-26: Removed MRI layer, high contrast labels, tilt the map using bearing, better icons
-- 2020-11-13: Changed color scheme for the Black layer, positioned the layer below the labels and roads
-- 2020-09-14: Added JS coded choropleth layer with layer control, linear interpolated scale legend, hover info window, time slider, radio button, MCI data (combined time slider and button filter), support popup window
+- 2021-03-26: Removed MCI layer, added high contrast labels and map tilt using bearing
+- 2020-11-13: Changed Black layer colorscheme and positioned the layer below the labels and roads
+- 2020-09-14: Added radio button, MCI data to be filtered by time slider and button, and popup window for Support layer
+- 2020-09-13: Added a custom layer switcher to display different datasets, choropleth layer, linear interpolated scale legend, hover info window, and time slider 
+= 2020-09-11: Used Mapbox GL JS and codepen.io to create a beautiful map with cool legends
 
 > A Pen created on CodePen.io. Original URL: [https://codepen.io/zhongminlin/pen/OJoeLdR](https://codepen.io/zhongminlin/pen/OJoeLdR).
