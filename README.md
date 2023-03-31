@@ -17,5 +17,4 @@ This map was developed to visually depict the devastating, disproportionate prev
 - 2021-03-26: Removed MRI layer, high contrast labels, tilt the map using bearing, better icons
 - 2020-11-20: Initial commit with 2019 homicide data and 2016 neighbourhood census data
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/zhongminlin/pen/OJoeLdR](https://codepen.io/zhongminlin/pen/OJoeLdR).
-
+> A Pen created on CodePen.io. Original URL: [https://codepen.io/zhongminlin/pen/OJoeLdR](https://codepen.io/zhongminlin/pen/OJoeLdR).
