@@ -185,11 +185,10 @@ map.on('load', function () {
         '</strong></h3><p><strong><em>' + nbhs[0].properties.UNEMP + '</strong>% Unemployment rate. Median: 8.2%</em></p>' + 
         '</strong></h3><p><strong><em>' + nbhs[0].properties.LOW_INCOME + '</strong>% Low income prevalence (LIM-AT). Median: 18.6%</em></p>' + 
         '</strong></h3><p><strong><em>' + nbhs[0].properties.NO_CERT + '</strong>% No certificate, diploma or degree. Median: 16.42%</em></p>' + 
-        '</strong></h3><p><small><em>' + 'Source: <a href="https://open.toronto.ca/dataset/neighbourhood-profiles/">2016 Census Neighbourhood Profiles</small></em></a></p>'; 
+        '</strong></h3><p><small><em>Source: <a href="https://open.toronto.ca/dataset/neighbourhood-profiles/">2016 Census Neighbourhood Profiles</small></em></a></p>'; 
     } else {
-      document.getElementById('pd').innerHTML = '<p>Hover over a neighbourhood!</p>' + 
-        '<br><br><br><br><br><br><br><p><small><em>' + 
-        'Source: <a href="https://open.toronto.ca/dataset/neighbourhood-profiles/">2016 Census Neighbourhood Profiles</small></em></a></p>';
+      document.getElementById('pd').innerHTML = '<p>Hover over a neighbourhood!</p><br><br><br><br><br><br><br>' + 
+        '<p><small><em>Source: <a href="https://open.toronto.ca/dataset/neighbourhood-profiles/">2016 Census Neighbourhood Profiles</small></em></a></p>';
     }       
   });
 
