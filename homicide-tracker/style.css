@@ -25,10 +25,10 @@ p {
   width: 100%;
 }
 
-    .mapboxgl-popup {
-        max-width: 400px;
-        font: 12px/15px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    }
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/15px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
 
 /**
 * Set rules for how the map overlays
@@ -47,65 +47,65 @@ p {
 }
 
 .legend1 {
-        background-color: #fff;
-        border-radius: 3px;
-        bottom: 77px;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-        padding: 2px;
-        position: absolute;
-        left: 145px;
-        z-index: 1;
-    }
+  background-color: #fff;
+  border-radius: 3px;
+  bottom: 77px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: 2px;
+  position: absolute;
+  left: 145px;
+  z-index: 1;
+}
 
-    .legend1 div span {
-        border-radius: 50%;
-        display: inline-block;
-        height: 10px;
-        margin-right: 5px;
-        margin-left: 5px;
-        width: 10px;
-    }
+.legend1 div span {
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 10px;
+}
 
 .legend2 {
-        background-color: #fff;
-        border-radius: 3px;
-        bottom: 113px;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-        padding: 2px;
-        position: absolute;
-        left: 145px;
-        z-index: 1;
-    }
+  background-color: #fff;
+  border-radius: 3px;
+  bottom: 113px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: 2px;
+  position: absolute;
+  left: 145px;
+  z-index: 1;
+}
 
-    .legend2 div span {
-        border-radius: 0%;
-        display: inline-block;
-        height: 10px;
-        margin-right: 5px;
-        margin-left: 5px;
-        width: 10px;
-    }
+.legend2 div span {
+  border-radius: 0%;
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 10px;
+}
 
 .legend3 {
-        background-color: #fff;
-        border-radius: 3px;
-        bottom: 40px;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-        padding: 2px;
-        position: absolute;
-        left: 145px;
-        z-index: 1;
-    }
+  background-color: #fff;
+  border-radius: 3px;
+  bottom: 40px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: 2px;
+  position: absolute;
+  left: 145px;
+  z-index: 1;
+}
 
-    .legend3 div img {
-        display: block;
-        max-width: 100%; 
-        height: 4%;
-        margin-right: 0px;
-    }
+.legend3 div img {
+  display: block;
+  max-width: 100%; 
+  height: 4%;
+  margin-right: 0px;
+}
 
 
 
@@ -118,47 +118,47 @@ p {
 }
 
 
-    #menu {
-        background: #fff;
-        position: absolute;
-        z-index: 1;
-        bottom: 35px;
-        left: 20px;
-        border-radius: 3px;
-        width: 120px;
-        border: 1px solid rgba(0, 0, 0, 0.4);
-        font-family: 'Open Sans', sans-serif;
-    }
+#menu {
+  background: #fff;
+  position: absolute;
+  z-index: 1;
+  bottom: 35px;
+  left: 20px;
+  border-radius: 3px;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  font-family: 'Open Sans', sans-serif;
+}
 
-    #menu a {
-        font-size: 13px;
-        color: #404040;
-        display: block;
-        margin: 0;
-        padding: 0;
-        padding: 10px;
-        text-decoration: none;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-        text-align: center;
-    }
+#menu a {
+  font-size: 13px;
+  color: #404040;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
 
-    #menu a:last-child {
-        border: none;
-    }
+#menu a:last-child {
+  border: none;
+}
 
-    #menu a:hover {
-        background-color: #f8f8f8;
-        color: #404040;
-    }
+#menu a:hover {
+  background-color: #f8f8f8;
+  color: #404040;
+}
 
-    #menu a.active {
-        background-color: #3887be;
-        color: #ffffff;
-    }
+#menu a.active {
+  background-color: #3887be;
+  color: #ffffff;
+}
 
-    #menu a.active:hover {
-        background: #3074a4;
-    }
+#menu a.active:hover {
+  background: #3074a4;
+}
 
 
 
