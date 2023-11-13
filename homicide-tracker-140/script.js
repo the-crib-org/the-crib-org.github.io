@@ -1,7 +1,7 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoibHVjaWZlcnllbGxvdyIsImEiOiJja2V1bWJkd2MxcHozMnltcmVzajE0NWs3In0.LjpvVCLIKvcCpSLqE4P-5Q';
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/luciferyellow/ckf1ke60u5o3418p7n03byd0u',
+  style: 'mapbox://styles/luciferyellow/cloxbca2j00pb01ntez8jbgx7',
   center: [-79.37, 43.73], // starting position //[-79.37, 43.73][-79.3832, 43.653239]
   //pitch: 16, // pitch in degrees
   //bearing: -17.2, // bearing in degrees
