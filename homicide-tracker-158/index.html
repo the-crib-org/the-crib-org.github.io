@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CRIB Homicide Tracker - Nov 2023</title>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav id="menu"></nav>
+<div id="map"></div>
+
+<div class='map-overlay' id='features'>
+  <h2>Toronto Neighbourhood Profiles 2021</h2>
+  <div id='pd'><p>Hover over a neighbourhood!</p>
+    <br><br><br><br><br><br><br>
+    <p><small><em>Source: <a href="https://open.toronto.ca/dataset/neighbourhood-profiles/">2021 Census Neighbourhood Profiles</small></em></a></p>
+  </div>
+</div> 
+
+<div id="homicide-legend" class="legend1">
+  <div><span style="background-color: #e72323"></span></div>
+</div>
+
+<div id="black-legend" class="legend2">
+  <div><span style="background-color: #b38400"></span></div>
+</div>
+
+<div id="support-legend" class="legend3">
+  <div><img src="https://i.ibb.co/nbvcYHR/blackhand20x20.png"</img></div>
+</div>
+
+<div id='console'>
+
+  <div class='session'>
+    <h5>Population Percentage (%)</h5>
+    <div class='row colors'>
+    </div>
+    <div class='row labels'>
+      <div class='label'>0</div>
+      <div class='label'>7</div>
+      <div class='label'>13</div>
+      <div class='label'>19</div>
+      <div class='label'>25</div>
+      <div class='label'>32</div>
+    </div>
+  </div>
+
+</div>
+
+
+<div id='console2'>
+
+  <h4> Toronto Homicide</h4>
+
+  <div class='session'>
+    <h5>Homicide Type</h5>
+    <div class='row' id='filters hmc'>
+      <input id='all' type='radio' name='toggle' value='all' checked='checked'> 
+      <label for='all'>All</label>
+      <input id='Shooting' type='radio' name='toggle' value='Shooting'>
+      <label for='Shooting'>Shooting</label>
+      <input id='Stabbing' type='radio' name='toggle' value='Stabbing'>
+      <label for='Stabbing'>Stabbing</label>
+      <input id='Other' type='radio' name='toggle' value='Other'>
+      <label for='Other'>Other</label>
+    </div>
+  </div>  
+
+
+  <div class='session' id='sliderbar'>
+    <h5><br>Occurrence Year: <label id='occurrence-year'>2021</label></h5>
+    <input id='slider' class='row' type='range' min='2004' max='2022' step='1' value='2021' />
+  </div>
+
+  <p><small><em>Source: <a href='https://data.torontopolice.on.ca/datasets/TorontoPS::homicides-open-data-asr-rc-tbl-002/about'>Homicides Open Data 2004-2022</small></a></em></p> 
+
+</div>
+<!-- partial -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

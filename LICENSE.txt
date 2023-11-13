@@ -1,7 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2023 Zhongmin Lin (https://codepen.io/zhongminlin/pen/OJoeLdR)
-Fork of an original work CRIB Homicide Tracker - Mar 2023 (https://codepen.io/zhongminlin/pen/OJoeLdR)
+Fork of an original work CRIB Homicide Tracker - Nov 2023 (https://codepen.io/zhongminlin/pen/OJoeLdR)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
