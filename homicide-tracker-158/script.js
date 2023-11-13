@@ -11,7 +11,7 @@ var map = new mapboxgl.Map({
 map.on('load', function () {
 
   // combine time and type filter
-  var filterHmcYear = ['==', ['number', ['get', 'OCC_YEAR']], 2016];
+  var filterHmcYear = ['==', ['number', ['get', 'OCC_YEAR']], 2021];
   var filterHmc = ['!=', ['string', ['get', 'HOMICIDE_TYPE']], 'placeholder'];
 
   map.getCanvas().style.cursor = 'default';  
