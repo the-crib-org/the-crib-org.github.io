@@ -1,5 +1,6 @@
 # CRIB Homicide Tracker
-- [Homicide Tracker 2022 - 158 Neighbourhoods](https://the-crib-org.github.io/homicide-tracker-158/)
+- [The CRIB Homicide Tracker](https://www.the-crib.org/homicide-tracker.html)
+- [Homicide Tracker 2023 - 158 Neighbourhoods](https://the-crib-org.github.io/homicide-tracker-158/)
 - [Homicide Tracker 2022 - 140 Neighbourhoods](https://the-crib-org.github.io/homicide-tracker-140/)
 
 This map was developed to visually depict the devastating, disproportionate prevalence of homicide in predominantly African, Caribbean and Black (ACB) neighbourhoods throughout Toronto and illustrate the availability of resources designed to assist family members and friends of murdered victims in surviving the aftermath of unthinkable tragedy.
@@ -9,9 +10,10 @@ This map was developed to visually depict the devastating, disproportionate prev
 
 ## Archive
 - [Homicide Tracker 2021](https://the-crib-homicide-tracker.netlify.app/)
-- [Homicide Tracker 2020](https://www.the-crib.org/homicide-tracker.html)
 
-## Changelog 
+## Changelog
+- 2024-03-19: Updated Survivor Supports
+- 2024-01-26: Updated homicide data to Dec 2023
 - 2023-11-13: Updated neighbourhoods profiles to 2021 census
 - 2023-03-31: Updated homicide data to Dec 2022
 - 2022-03-02: Updated homicide data to Dec 2021, added small legends besides the layer toggle buttons

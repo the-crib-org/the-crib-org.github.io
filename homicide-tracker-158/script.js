@@ -49,15 +49,15 @@ map.on('load', function () {
 
 
   // add source and layer for homicides
-  map.addSource('Homicides_Open_Data_ASR_RC_TB-ay390n', {
+  map.addSource('Homicides_Open_Data_ASR-RC-TB-5ht1gh', {
     type: 'vector',
-    url: 'mapbox://luciferyellow.6w1g1aqw'
+    url: 'mapbox://luciferyellow.cjext1f0'
   });
   // homicide layer
   map.addLayer({
     'id': 'Homicides',
     'type': 'circle',
-    'source': 'Homicides_Open_Data_ASR_RC_TB-ay390n', //updated Feb 3, 2022
+    'source': 'Homicides_Open_Data_ASR-RC-TB-5ht1gh', //updated Feb 3, 2022
     'layout': {
       // make layer visible by default
       'visibility': 'none'
@@ -66,7 +66,7 @@ map.on('load', function () {
       'circle-radius': 4,
       'circle-color': '#e72323'
     },
-    'source-layer': 'Homicides_Open_Data_ASR_RC_TB-ay390n',
+    'source-layer': 'Homicides_Open_Data_ASR-RC-TB-5ht1gh',
     'filter': ['all', filterHmcYear, filterHmc]
   });
 
@@ -107,14 +107,14 @@ map.on('load', function () {
     function (error, image) {
       if (error) throw error;
       map.addImage('blackhand', image);
-      map.addSource('Resource_Assest_Map_-_Toronto', {
+      map.addSource('Resource_Assest_Map_-_Revised-d5bg1k', {
         type: 'vector',
-        url: 'mapbox://luciferyellow.ckevyqoo002p12bpc75c37wed-2cjy7'
+        url: 'mapbox://luciferyellow.bn6r8en3'
       });
       map.addLayer({
         'id': 'Survivor Support',
         'type': 'symbol',
-        'source': 'Resource_Assest_Map_-_Toronto',
+        'source': 'Resource_Assest_Map_-_Revised-d5bg1k',
         'layout': {
           // make layer visible by default
           'visibility': 'none',
@@ -134,7 +134,7 @@ map.on('load', function () {
           'text-halo-color': '#212b2c',
           'text-halo-width': 1,
         },
-        'source-layer': 'Resource_Assest_Map_-_Toronto'
+        'source-layer': 'Resource_Assest_Map_-_Revised-d5bg1k'
       });
     }
   )
